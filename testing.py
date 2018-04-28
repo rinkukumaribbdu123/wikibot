@@ -4,7 +4,7 @@ elif len(result_quora)>15:
 import stackoverflow
 
 
-import quora
+import quora_search
 elif len(result_quora)>15:
     print(result_quora)
-result_quora = quora.find(query)
+result_quora = quora_search.find(query)
